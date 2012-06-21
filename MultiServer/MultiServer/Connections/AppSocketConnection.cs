@@ -75,30 +75,44 @@ namespace MultiServer
 
         private void listen()
         {
-            ConnectionSocket.BeginReceive(dataBuffer, 0, dataBuffer.Length, 0, readData, null);
+            try
+            {
+                ConnectionSocket.BeginReceive(dataBuffer, 0, dataBuffer.Length, 0, readData, null);
+            }
+            catch 
+            {
+                var handler = Disconnected;
+
+
+                if (handler != null)
+                { Disconnected(this, EventArgs.Empty); };
+            }
         }
 
         private void readData(IAsyncResult ar)
         {
-            int sizeOfReceivedData = ConnectionSocket.EndReceive(ar);
-
-
-            if (sizeOfReceivedData > 0)
+            try
             {
-                dataString.Append(Encoding.UTF8.GetString(dataBuffer, 0, dataBuffer.Length));
-                int size = Encoding.UTF8.GetBytes(dataString.ToString().ToCharArray()).Length;
-                onDataReceived(new DataReceivedEventArgs(size, dataString.ToString()));
-                dataString = new StringBuilder();
-                listen();
+                int sizeOfReceivedData = ConnectionSocket.EndReceive(ar);
+
+
+                if (sizeOfReceivedData > 0)
+                {
+                    dataString.Append(Encoding.UTF8.GetString(dataBuffer, 0, sizeOfReceivedData));
+                    int size = Encoding.UTF8.GetBytes(dataString.ToString().ToCharArray()).Length;
+                    onDataReceived(new DataReceivedEventArgs(size, dataString.ToString()));
+                    dataString = new StringBuilder();
+                    listen();
+                }
+
             }
-            else
+            catch(SocketException)
             {
                 var handler = Disconnected;
 
 
                 if (handler != null)
                 { Disconnected(this, EventArgs.Empty); }
-
             }
 
         }

@@ -42,6 +42,21 @@ namespace MultiServer
         private void onDisconnect(IConnection sender, EventArgs e)
         {
             Console.WriteLine(sender.GUID + " disconnected");
+            int index = UserListStorage.inactiveUsers.FindIndex((current_user) => { return current_user.Connection.GUID == sender.GUID; });
+
+            if (index == -1)
+            {
+                
+                int pair_index = UserListStorage.activeUsers.FindIndex((current_pair) =>
+                {
+                    return (current_pair.User1.Connection.GUID == sender.GUID || current_pair.User2.Connection.GUID == sender.GUID);
+                });
+
+                IConnection notify_sender = (UserListStorage.activeUsers[pair_index].User1.Connection.GUID == sender.GUID) ?
+                    UserListStorage.activeUsers[pair_index].User2.Connection : UserListStorage.activeUsers[pair_index].User1.Connection;
+
+                notify_sender.Send("{\"error\":\"your opponent disconnected\"}");
+            }
         }
 
         private void onConnect(IConnection sender, EventArgs e)
