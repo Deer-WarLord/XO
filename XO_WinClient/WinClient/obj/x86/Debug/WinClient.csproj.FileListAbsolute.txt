@@ -1,0 +1,18 @@
+F:\SoftServe\TickTackToe\WinClient\WinClient\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\SoftServe\TickTackToe\WinClient\WinClient\obj\x86\Debug\WinClient.TickTackToeForm.resources
+F:\SoftServe\TickTackToe\WinClient\WinClient\obj\x86\Debug\WinClient.Properties.Resources.resources
+F:\SoftServe\TickTackToe\WinClient\WinClient\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\SoftServe\TickTackToe\WinClient\WinClient\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\SoftServe\TickTackToe\WinClient\WinClient\bin\Debug\WinClient.exe
+F:\SoftServe\TickTackToe\WinClient\WinClient\bin\Debug\WinClient.pdb
+F:\SoftServe\TickTackToe\WinClient\WinClient\obj\x86\Debug\WinClient.exe
+F:\SoftServe\TickTackToe\WinClient\WinClient\obj\x86\Debug\WinClient.pdb
+c:\Users\Tioma\Documents\Visual Studio 2010\XO_WinClient\WinClient\obj\x86\Debug\WinClient.exe
+c:\Users\Tioma\Documents\Visual Studio 2010\XO_WinClient\WinClient\obj\x86\Debug\WinClient.pdb
+c:\Users\Tioma\Documents\Visual Studio 2010\XO_WinClient\WinClient\bin\Debug\WinClient.exe
+c:\Users\Tioma\Documents\Visual Studio 2010\XO_WinClient\WinClient\bin\Debug\WinClient.pdb
+c:\Users\Tioma\Documents\Visual Studio 2010\XO_WinClient\WinClient\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\Users\Tioma\Documents\Visual Studio 2010\XO_WinClient\WinClient\obj\x86\Debug\WinClient.TickTackToeForm.resources
+c:\Users\Tioma\Documents\Visual Studio 2010\XO_WinClient\WinClient\obj\x86\Debug\WinClient.Properties.Resources.resources
+c:\Users\Tioma\Documents\Visual Studio 2010\XO_WinClient\WinClient\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\Users\Tioma\Documents\Visual Studio 2010\XO_WinClient\WinClient\obj\x86\Debug\GenerateResource.write.1.tlog
