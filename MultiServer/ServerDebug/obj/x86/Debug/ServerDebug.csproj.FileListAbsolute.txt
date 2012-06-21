@@ -1,0 +1,7 @@
+c:\Users\Tioma\Documents\Visual Studio 2010\Projects\MultiServer\ServerDebug\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\Users\Tioma\Documents\Visual Studio 2010\Projects\MultiServer\ServerDebug\bin\Debug\ServerDebug.exe
+c:\Users\Tioma\Documents\Visual Studio 2010\Projects\MultiServer\ServerDebug\bin\Debug\ServerDebug.pdb
+c:\Users\Tioma\Documents\Visual Studio 2010\Projects\MultiServer\ServerDebug\bin\Debug\MultiServer.dll
+c:\Users\Tioma\Documents\Visual Studio 2010\Projects\MultiServer\ServerDebug\bin\Debug\MultiServer.pdb
+c:\Users\Tioma\Documents\Visual Studio 2010\Projects\MultiServer\ServerDebug\obj\x86\Debug\ServerDebug.exe
+c:\Users\Tioma\Documents\Visual Studio 2010\Projects\MultiServer\ServerDebug\obj\x86\Debug\ServerDebug.pdb

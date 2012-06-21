@@ -1,0 +1,5 @@
+c:\Users\Tioma\Documents\Visual Studio 2010\Projects\MultiServer\MultiServer\obj\Debug\ResolveAssemblyReference.cache
+c:\Users\Tioma\Documents\Visual Studio 2010\Projects\MultiServer\MultiServer\bin\Debug\MultiServer.dll
+c:\Users\Tioma\Documents\Visual Studio 2010\Projects\MultiServer\MultiServer\bin\Debug\MultiServer.pdb
+c:\Users\Tioma\Documents\Visual Studio 2010\Projects\MultiServer\MultiServer\obj\Debug\MultiServer.dll
+c:\Users\Tioma\Documents\Visual Studio 2010\Projects\MultiServer\MultiServer\obj\Debug\MultiServer.pdb
